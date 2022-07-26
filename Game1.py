@@ -66,7 +66,7 @@ class Game:
         self.width=width
         self.height=height
         self.size=size
-        self.img=cv2.imread("Games/Goal.jpg")
+        self.img=cv2.imread("./Goal.jpg")
         self.img=cv2.resize(self.img,(self.size,self.size))
         gray=cv2.cvtColor(self.img,cv2.COLOR_BGR2GRAY)
         
